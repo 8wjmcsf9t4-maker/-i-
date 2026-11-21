@@ -1,0 +1,40 @@
+uhiovbbbnhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj     <!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>урок 6</title>
+    <style>
+        .cards{
+            display: grid ;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%,202px),1fr));
+            gap: 16px;
+        }
+
+     article {
+        padding: 24px;
+        background: rebeccapurple;
+     }
+     img{
+width: 100%;
+height: 160px;
+object-fit: cover;
+
+     }
+    </style>
+</head>
+<body>
+    <h1>наши приемущества</h1>
+    <div>
+        <article><h2>практика</h2><p>описание приемущества</p></article>
+        <article><h2>практика</h2><p>описание приемущества</p></article>
+        <article><h2>практика</h2><p>описание приемущества</p></article>
+        <article><h2>практика</h2><p>описание приемущества</p></article>
+        <article><h2>практика</h2><p>описание приемущества</p></article>
+        <article><h2>обратная часть</h2><p>описание приемущества</p></article>
+    </div>
+</body>
+</html>
+777
+                                      

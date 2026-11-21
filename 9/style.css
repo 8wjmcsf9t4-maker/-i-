@@ -1,0 +1,159 @@
+:root{
+  --header:green ;
+ --panel: green ;
+  --card: green ; 
+  --footer: green  ; 
+}
+
+body {
+    margin: 0;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;
+color: chartreuse;
+}
+
+
+
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 16px;
+padding: 0 12px 0 4px ;
+min-height: 80px ;
+background:var(--header) ;
+}
+
+.logo{
+display: grid;
+place-items: center;
+width: 80px;
+background: white;
+border-radius: 12px;
+font: bold 24px/1 arial, sans-serif;
+letter-spacing: -2px;
+}
+
+.site-name{
+    font-size: 48px ;
+}
+
+address{
+display: grid;
+gap: 8px ;
+font-size: 16px;
+font-style: normal;
+
+}
+
+address a{
+color: inherit;
+
+}
+
+main{
+flex: 1;
+padding: 24px 16px clamp(48px, 11,8vw,170px);
+}
+
+h1{
+margin: 0;
+text-align: center;
+font-size: 40px;
+line-height:52px
+
+
+}
+
+.cards  {
+max-width: 1216px;
+margin: 0 auto;
+padding: 80px,24px;
+display: grid;
+grid-template-columns: repeat(4, minmax(0,200px));
+justify-content: center;
+gap: clamp(16px,4.45vw,64px);
+background: var(--panel);
+}
+
+.card {
+text-align: center;
+border: 1px solid black;
+background: var(--card);
+padding: 20px, 6px,26px;
+
+}
+
+picture{
+display: block;
+height: auto;
+object-fit: cover;
+width: min(138px, 100%);
+aspect-ratio: 138/126;
+background: black;
+margin: auto;
+}
+
+
+ .card h2 {
+margin: 22px 0 32px;
+font-size: 42px;
+line-height: ;
+font-weight: 400;
+ }
+
+ .card p {
+margin: 0;
+font-size: 36px;
+line-height: 1.22;
+overflow-wrap: anywhere;
+
+ }
+
+footer{
+background: var(--footer);
+
+}
+
+ .footer-inner {
+width: min(1184px, calc(100% - 48px));
+min-height: 76px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
